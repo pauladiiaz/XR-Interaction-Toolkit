@@ -37,5 +37,4 @@ En el Right Controller > Near-Far Interactor a Interactor Events se añadieron l
 Cuando se agarra el cubo cercano, el lejano cambia de color sin seleccionarlo. Se intentó arreglar añadiendo capas de interacción y asingnándolas a los interactores y a los objetos, pero hacía que no se pudiera agarrar el cubo cercano. 
 
 ## Video
-Se puede ver el funcionamiento de la práctica en el siguiente video:
-[https://github.com/user-attachments/assets/5224d384-197c-488b-839b-78278a326e5e](https://github.com/user-attachments/assets/5224d384-197c-488b-839b-78278a326e5e)
+[![Video de la práctica](https://user-attachments.githubusercontent.com/5224d384-197c-488b-839b-78278a326e5e/1f3f1f3a-5f7e-4f6e-8f4b-1c4e3e4b5c6d/video_thumbnail.png)](https://github.com/user-attachments/assets/5224d384-197c-488b-839b-78278a326e5e)
