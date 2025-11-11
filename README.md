@@ -16,6 +16,7 @@ Dentro de Edit -> Project Settings -> XR Plug-in Management -> OpenXR:
 
 ## Configurar la escena
 Se ha eliminado la cámara principal de la escena y se ha añadido un XR Origin (XR Rig) que es un prefab incluido en el XR Interaction Toolkit.
+En el Near-Far Interactor, para el componente que se encarga de los objetos lejanos (Curve Interaction Caster), se cambió el parámetro `Cast Distance` a *20 unidades* para que pueda alcanzar el cubo lejano y se cambió el `Hit Detection Type` a *Raycast*.
 
 ## Ejercicio
 
