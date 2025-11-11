@@ -11,7 +11,7 @@ public class CuboCercano : MonoBehaviour
 
     void OnGrab(SelectEnterEventArgs args)
     {
-        Debug.Log("¡Has agarrado el cubo cercano!");
+        Debug.Log("Se ha agarrado el cubo");
     }
 }
 
