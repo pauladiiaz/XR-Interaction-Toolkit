@@ -16,6 +16,7 @@ Dentro de Edit -> Project Settings -> XR Plug-in Management -> OpenXR:
 
 ## Configurar la escena
 Se ha eliminado la cámara principal de la escena y se ha añadido un XR Origin (XR Rig) que es un prefab incluido en el XR Interaction Toolkit.
+En el Near-Far Interactor, para el componente que se encarga de los objetos lejanos (Curve Interaction Caster), se cambió el parámetro `Cast Distance` a *20 unidades* para que pueda alcanzar el cubo lejano y se cambió el `Hit Detection Type` a *Raycast*.
 
 ## Ejercicio
 
@@ -33,8 +34,9 @@ Y al cubo lejano se le añadieron los siguientes componentes:
 
 En el Right Controller > Near-Far Interactor a Interactor Events se añadieron los eventos OnSelectEnter y OnSelectExit del script del cubo lejano.
 
-## Problemas
+## Problema (solucionado)
 Cuando se agarra el cubo cercano, el lejano cambia de color sin seleccionarlo. Se intentó arreglar añadiendo capas de interacción y asingnándolas a los interactores y a los objetos, pero hacía que no se pudiera agarrar el cubo cercano. 
+El problema se debía a que en los controladores, en el Near-Far Interactor, se habían configurado los Interactor Events de Select. Una vez de quitaron los eventos del cubo lejano, cuando se agarra el cubo cercano no cambia de color el lejano.
 
 ## Video
 [![Video de la práctica](https://user-attachments.githubusercontent.com/5224d384-197c-488b-839b-78278a326e5e/1f3f1f3a-5f7e-4f6e-8f4b-1c4e3e4b5c6d/video_thumbnail.png)](https://github.com/user-attachments/assets/5224d384-197c-488b-839b-78278a326e5e)
